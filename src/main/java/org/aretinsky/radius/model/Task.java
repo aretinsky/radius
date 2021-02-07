@@ -1,10 +1,7 @@
 package org.aretinsky.radius.model;
 
-import com.sun.istack.NotNull;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,4 +20,5 @@ public class Task {
     private String author;
     private String date;
     private String grade;
+    private String title;
 }

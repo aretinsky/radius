@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Школьный радиус</title>
+</head>
+<header th:replace="/blocks/header.html">
+
+</header>
+<body>
+<div class="container">
+    <table>
+        <tr th:each="task : ${tasks}">
+            <td th:text="${task.title}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
